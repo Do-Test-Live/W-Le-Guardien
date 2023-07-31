@@ -59,6 +59,11 @@ body {
 	opacity: 0;
 	pointer-events: none;
 }
+.futurelogo{
+	font-size: 10rem;
+	color: #ffffff;
+}
+
 
 .pa-page-transition-1.is-active {
 	-webkit-transition: all 0.5s ease 0s;
@@ -749,6 +754,12 @@ nav a em {
 	.hc-offcanvas-nav .nav-wrapper-0>.nav-content>ul:not(:last-child) {
 		border-bottom: 0px solid #15293a;
 	}
+	.futurelogo{
+		font-size: 5rem;
+		color: #ffffff;
+	}
+
+
 
 	.hc-offcanvas-nav .nav-close-button span::before {
 		margin-left: -6px;
@@ -3388,6 +3399,10 @@ section.pa-main-footer {
 		line-height: 40px;
 		margin-bottom: 10px;
 	}
+	.futurelogo{
+		font-size: 5rem;
+		color: #ffffff;
+	}
 
 	.typed-text.mega-typed {
 		font-size: 32px;
@@ -3600,6 +3615,7 @@ section.pa-main-footer {
 		margin-bottom: 25px;
 	}
 
+
 }
 
 @media all and (max-width: 477px) { /* xs MODIFIED! */
@@ -3620,6 +3636,7 @@ section.pa-main-footer {
 		margin-top: 25px;
 		margin-bottom: 25px;
 	}
+
 
 }
 
