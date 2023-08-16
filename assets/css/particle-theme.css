@@ -61,7 +61,7 @@ body {
 }
 .futurelogo{
 	font-size: 10rem;
-	color: #ffffff;
+	color: #b29c6e;
 }
 
 
@@ -101,6 +101,9 @@ body {
 	-o-transition: 0.5s all;
 	transition: 0.5s all;
 	opacity: 1;
+}
+.head3{
+	background-image: url("../../assets/images/bg222.png");
 }
 
 .hello {
@@ -884,7 +887,7 @@ nav a em {
 	}
 
 	.pa-navbar.navbar-dark .navbar-nav .nav-link {
-		color: rgba(255,255,255,0.8);
+		color: #b29c6e;
 	}
 
 	.pa-navbar.navbar-dark .navbar-nav .active .nav-link, 
@@ -1123,7 +1126,7 @@ p.pa-p-v1.pa-bright {
 }
 
 p.pa-p-v1.pa-white {
-	color: #ffffff;
+	color: #101c26;;
 	font-weight: 200;
 }
 
@@ -1192,7 +1195,7 @@ p.pa-p-v1.pa-dark {
 }
 
 .pa-h1-v2.pa-bright {
-	color: #FFFFFF;
+	color: #101c26;
 }
 
 .pa-h1-v2.pa-dark {
@@ -1463,7 +1466,7 @@ a.pa-button-primary {
 }
 
 a.pa-button-primary:hover {
-	background-color: #444B54;
+	background-color: #ecc580;
 }
 
 a.pa-button-secondary {
@@ -1826,7 +1829,7 @@ table a,
 .typed-text {
 	font-size: 50px;
 	line-height: 60px;
-	color: #FFFFFF;
+	color: #000000;
 	font-weight: 700;
 	font-family: play, sans-serif;
 }
@@ -3400,8 +3403,8 @@ section.pa-main-footer {
 		margin-bottom: 10px;
 	}
 	.futurelogo{
-		font-size: 5rem;
-		color: #ffffff;
+		font-size:3.8rem;
+		color: #000000;
 	}
 
 	.typed-text.mega-typed {
