@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 	// Initiate typed.js text effect (done custom for each typed text effect)
 	$(".animated-text-effect").typed({ 
-		strings: ["Particle Blog^", "Like to build stuff?^", "Here's a Blog Masterplan^"], 
+		strings: ["Le Guardien^", "Family Office^"],
 		contentType: "text", 
 		typeSpeed: 30, 
 		loop: true, 

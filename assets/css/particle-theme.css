@@ -576,6 +576,7 @@ div.spinn i:nth-child(7) {
 	.pa-supercontainer.container-sm, 
 	.pa-supercontainer.container-xl {
 		max-width: 1460px;
+		padding-top: 50px;
 	}
 }
 
@@ -909,8 +910,7 @@ nav a em {
 		/* menu items dropdown */
 		font-family: FontAwesome;
 		content: "\f078";
-		content:"\f107";
-		color: #ffffff;
+		color: #b29c6e;
 		font-size: 14px;
 		float: right;
 		cursor: pointer;
@@ -921,71 +921,71 @@ nav a em {
 		padding-top: 22px;
 		padding-right: 0px;
 		-webkit-transform: translateX(-20px);
-		    -ms-transform: translateX(-20px);
-		        transform: translateX(-20px);
+		-ms-transform: translateX(-20px);
+		transform: translateX(-20px);
 	}
 
 	@-webkit-keyframes sinking-rotated-dropdown-icon {
 		0% {
 			-webkit-transform: translateY(3px);
-					transform: translateY(3px);
+			transform: translateY(3px);
 		}
 		25% {
 			-webkit-transform: translateY(6px);
-					transform: translateY(6px);
+			transform: translateY(6px);
 		}
 		50% {
 			-webkit-transform: translateY(9px);
-					transform: translateY(9px);
+			transform: translateY(9px);
 		}
 		75% {
 			-webkit-transform: translateY(6px);
-					transform: translateY(6px);
+			transform: translateY(6px);
 		}
 		100% {
 			-webkit-transform: translateY(3px);
-					transform: translateY(3px);
+			transform: translateY(3px);
 		}
 	}
 
 	@keyframes sinking-rotated-dropdown-icon {
 		0% {
 			-webkit-transform: translateY(3px);
-					transform: translateY(3px);
+			transform: translateY(3px);
 		}
 		25% {
 			-webkit-transform: translateY(6px);
-					transform: translateY(6px);
+			transform: translateY(6px);
 		}
 		50% {
 			-webkit-transform: translateY(9px);
-					transform: translateY(9px);
+			transform: translateY(9px);
 		}
 		75% {
 			-webkit-transform: translateY(6px);
-					transform: translateY(6px);
+			transform: translateY(6px);
 		}
 		100% {
 			-webkit-transform: translateY(3px);
-					transform: translateY(3px);
+			transform: translateY(3px);
 		}
 	}
 
 	.navbar-nav > li > ul > li.menu-item-has-children:not(.pa-expand-children):hover:before {
 		-webkit-animation-name: sinking-rotated-dropdown-icon;
-		        animation-name: sinking-rotated-dropdown-icon;
+		animation-name: sinking-rotated-dropdown-icon;
 		-webkit-animation-duration: 0.9s;
-		        animation-duration: 0.9s;
+		animation-duration: 0.9s;
 		-webkit-animation-delay: 0s;
-		        animation-delay: 0s;
+		animation-delay: 0s;
 		-webkit-animation-timing-function: ease;
-		        animation-timing-function: ease;
+		animation-timing-function: ease;
 		-webkit-animation-iteration-count: infinite;
-		        animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
 		-webkit-animation-fill-mode: forwards;
-		        animation-fill-mode: forwards;
+		animation-fill-mode: forwards;
 		-webkit-animation-direction: alternate;
-		        animation-direction: alternate;
+		animation-direction: alternate;
 	}
 
 	.pa-navbar.navbar-expand-lg .navbar-nav > li.menu-item-has-children > a.nav-link {
@@ -1315,7 +1315,7 @@ footer .pa-h3-v1 {
 }
 
 .pa-h4-v1.pa-bright {
-	color: #FFFFFF;
+	color: #b8a378;
 }
 
 .pa-h4-v1.pa-dark {
@@ -1789,7 +1789,7 @@ table a,
 /* Default Hero */
 
 .pa-hero {
-	min-height: 326px;
+	min-height: 230px;
 }
 
 .pa-hero-content {
@@ -2414,7 +2414,7 @@ section.pa-main-footer {
 	left: 50%;
 	right: 50%;
 	bottom: 0;
-	background: rgba(255, 255, 255, .7);
+	background: rgb(0 0 0 / 60%);
 	height: 4px;
 	-webkit-transition-property: left, right;
 			-o-transition-property: left, right;
