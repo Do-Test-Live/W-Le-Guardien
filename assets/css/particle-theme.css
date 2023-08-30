@@ -45,7 +45,7 @@ body {
  * =============================
  */
 
-.pa-page-transition-1 {
+/*.pa-page-transition-1 {
 	-webkit-transition: all 1s ease 0s;
 	-o-transition: all 1s ease 0s;
 	transition: all 1s ease 0s;
@@ -58,14 +58,14 @@ body {
 	background-color: #091019;
 	opacity: 0;
 	pointer-events: none;
-}
+}*/
 .futurelogo{
 	font-size: 10rem;
 	color: #b29c6e;
 }
 
 
-.pa-page-transition-1.is-active {
+/*.pa-page-transition-1.is-active {
 	-webkit-transition: all 0.5s ease 0s;
 	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
@@ -74,7 +74,7 @@ body {
 }
 .pa-page-transition-1.is-active.pa-transition-kill {
 	opacity: 0;
-}
+}*/
 
 
 /*
@@ -84,7 +84,7 @@ body {
 
 /* Circle Preloader */
 
-.preloader {
+/*.preloader {
 	height: 100%;
 	width: 100%;
 	background: #091019;
@@ -101,7 +101,7 @@ body {
 	-o-transition: 0.5s all;
 	transition: 0.5s all;
 	opacity: 1;
-}
+}*/
 .head3{
 	background-image: url("../../assets/images/bg222.png");
 }
@@ -124,6 +124,7 @@ body {
 	display: inline-block;
 }
 
+/*
 #preloader {
 	position: fixed;
 	top: 0;
@@ -203,7 +204,7 @@ body {
 }
 
 
-/* Preloader Rays Background */
+!* Preloader Rays Background *!
 
 .pa-loader {
 	-webkit-transition: all 0.65s ease 0s;
@@ -226,6 +227,7 @@ body {
 	transition: all 1.4s ease-in 0s;
 	opacity: 0;
 }
+*/
 
 section.warper {
 	-webkit-transition: all 0.5s ease 0s;
@@ -250,12 +252,12 @@ section.warper.darker {
 	background: #091019;
 }
 
-.pa-loader.is-inactive div.spinn {
+/*.pa-loader.is-inactive div.spinn {
 	opacity: 0;
 
-}
+}*/
 
-div.spinn {
+/*div.spinn {
 	opacity: 1;
 	display: block;
 	position: relative;
@@ -561,7 +563,7 @@ div.spinn i:nth-child(7) {
 			transform-origin: center center;
 	-webkit-animation: spinnSeven 3s linear 0.33s forwards;
 			animation: spinnSeven 3s linear 0.33s forwards;
-}
+}*/
 
 
 /*

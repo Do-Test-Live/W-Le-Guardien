@@ -1,41 +1,34 @@
-/**
- * Particle HTML Template V2 002
- * Theme JS
- * Author: Dragan Milenkovic
- * Copyright - 2021 Skilltech Web Design - skilltechwebdesign.com
- * URL: https://themeforest.net/item/particle-modern-tech-startup-html-template/20078383?ref=Skilltech
- */
 
 $(document).ready(function () {
 
 	// -- START: Page Transitions and Preloader -- //
 
 	// Page Preloader - Part 1 (pre-insert)
-	$('body').addClass('pa-preloadable');
+	/*$('body').addClass('pa-preloadable');
 	$('body').prepend('<div class="pa-loader">' +
 		'<section class="warper"><div class="spinn" style="opacity: 0.24;"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="preloader"><p class="hello"></p><div id="preloader"><div id="loader"></div></div></div></section>' +
 		'<section class="warper darker"><div class="spinn" style="opacity: 0.24;"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></section>' +
-	'</div>');
+	'</div>');*/
 
 	// Page Transitions - Part 1
-	setTimeout(function(){
+	/*setTimeout(function(){
 		$('.pa-overlay').detach();
 	}, 340);
 	setTimeout(function(){
 		$( '.pa-page-transition-1' ).removeClass( 'is-active' );
-	}, 420);
+	}, 420);*/
 
 	// Page Preloader - Part 2
-	setTimeout(function(){
+	/*setTimeout(function(){
 		$('.warper').addClass('is-inactive');
 		$('.pa-loader').addClass('is-inactive');
 	}, 3000);
 	setTimeout(function(){
 		$( '.pa-loader' ).detach();
-	}, 4410);
+	}, 4410);*/
 
 	// Page Transitions - Part 2
-	window.onload = () => {
+/*	window.onload = () => {
 
 		// On Load
 		const anchors = document.querySelectorAll('a:not([href^="#"])');
@@ -64,7 +57,7 @@ $(document).ready(function () {
 				}, 500); // make it equal to .pa-page-transition-1.is-active {transition: all EQUIALms ease 0s;}
 			})
 		}
-	}
+	}*/
 
 	// -- END: Page Transitions and Preloader -- //
 
@@ -138,13 +131,6 @@ $(document).ready(function () {
 		}
 	});
 
-
-	// Change hero entrance animations if preloader HTML is present
-	$('body.pa-blog.pa-preloadable .pa-hero .fadeInDelay03Duration10').addClass('fadeInDelay35Duration10').removeClass('fadeInDelay03Duration10'); // Blog and Single
-	$('body.pa-service-item.pa-preloadable .pa-hero .slideDownDelay07Duration10').addClass('slideDownDelay39Duration10').removeClass('slideDownDelay07Duration10'); // Service Item
-	$('body.pa-service-item.pa-preloadable .pa-show-more-arrow.fadeInDelay15Duration10').addClass('fadeInDelay47Duration10').removeClass('fadeInDelay15Duration10'); // Service Item
-	$('body.pa-service-item.pa-preloadable .bounceDelay35Duration12').addClass('bounceDelay67Duration12').removeClass('bounceDelay35Duration12'); // Service Item
-	$('body.pa-project-item.pa-preloadable .pa-hero .fadeInDelay03Duration10').addClass('fadeInDelay35Duration10').removeClass('fadeInDelay03Duration10'); // Portfolio Item
 
 
 	// Configue WOW.js and animate.css elements (animations) - Before initialization
