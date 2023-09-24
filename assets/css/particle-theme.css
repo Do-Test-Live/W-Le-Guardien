@@ -578,7 +578,6 @@ div.spinn i:nth-child(7) {
 	.pa-supercontainer.container-sm, 
 	.pa-supercontainer.container-xl {
 		max-width: 1460px;
-		padding-top: 80px;
 	}
 }
 
