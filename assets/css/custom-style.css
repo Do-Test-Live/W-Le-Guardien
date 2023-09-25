@@ -14,7 +14,7 @@
 
 .lg-bg-blue h1{
     font-family: 'Garamond-Bold',sans-serif;
-    font-size: 3rem;
+    font-size: 57px;
 }
 
 .lg-content-bg{
@@ -25,7 +25,7 @@
 
 p{
     font-family: "Times New Roman",sans-serif;
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 2rem;
     color: #214161;
 }
@@ -39,6 +39,11 @@ ul li{
     font-family: 'Garamond-Bold',sans-serif;
     font-size: 20px;
     color: #214161;
+}
+
+.col-lg-4{
+    padding-left: unset;
+    padding-right: unset;
 }
 
 @media only screen and (max-width: 550px) {
