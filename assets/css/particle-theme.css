@@ -895,7 +895,7 @@ nav a em {
 	.pa-navbar.navbar-dark .navbar-nav .active .nav-link, 
 	.pa-navbar.navbar-dark .navbar-nav .nav-link:hover, 
 	nav li a:hover em {
-		color: rgb(0, 0, 0);
+		color: rgb(255, 255, 255);
 	}
 
 	.pa-navbar.navbar-expand-lg .navbar-nav .nav-link {
@@ -2317,7 +2317,8 @@ img.pa-services-image {
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 9px;
-	margin-top: 5px;
+	/* margin-top: 5px; */
+	color: #ecc580;
 }
 
 .pa-social-icons {
@@ -2416,7 +2417,7 @@ section.pa-main-footer {
 	left: 50%;
 	right: 50%;
 	bottom: 0;
-	background: rgb(0 0 0 / 60%);
+	background: rgba(255, 255, 255, 0.6);
 	height: 4px;
 	-webkit-transition-property: left, right;
 			-o-transition-property: left, right;
